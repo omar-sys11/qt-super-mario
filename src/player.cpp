@@ -1,6 +1,8 @@
 #include "player.hpp"
 
 #include <QBrush>
+#include <QLabel>
+#include <QVBoxLayout>
 
 Player::Player(QGraphicsItem* parent)
     : QObject(), QGraphicsRectItem(parent), velocityY(0), onGround(false) {
