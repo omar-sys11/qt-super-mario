@@ -39,3 +39,5 @@ void Player::updateState() {
     onGround = true;
   }
 }
+
+Player::~Player() {}
