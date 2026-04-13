@@ -16,19 +16,19 @@ int main(int argc, char* argv[]) {
   Player player;
   scene.addItem(&player);
 
-  QGraphicsRectItem ground(0, 0, 300, 30);
+  QGraphicsRectItem ground(0, 0, 100, 30);
   ground.setBrush(Qt::darkGreen);
   ground.setPos(100, 250);
   scene.addItem(&ground);
 
-  QGraphicsRectItem ground2(0, 0, 200, 30);
+  QGraphicsRectItem ground2(0, 0, 100, 30);
   ground.setBrush(Qt::darkGreen);
-  ground.setPos(400, 250);
+  ground.setPos(300, 250);
   scene.addItem(&ground2);
 
-  QGraphicsRectItem ground3(0, 0, 200, 30);
+  QGraphicsRectItem ground3(0, 0, 100, 30);
   ground.setBrush(Qt::darkGreen);
-  ground.setPos(600, 250);
+  ground.setPos(500, 250);
   scene.addItem(&ground3);
 
   QGraphicsView view(&scene);
