@@ -41,7 +41,7 @@ int main(int argc, char* argv[]) {
   view.show();
 
   
-  if (player.x > 640 || player.x < 0 || player.y > 480 || player.y < 0) {
+  if (player.x() > 640 || player.x() < 0 || player.y() > 480 || player.y() < 0) {
 
     QWidget* window = new QWidget;
     window->setWindowTitle("Popup");
