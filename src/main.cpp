@@ -23,7 +23,7 @@ int main(int argc, char* argv[]) {
 
   QGraphicsRectItem ground2(0, 0, 100, 30);
   ground2.setBrush(Qt::darkGreen);
-  ground2.setPos(300, 250);
+  ground2.setPos(250, 250);
   scene.addItem(&ground2);
 
   QGraphicsRectItem ground3(0, 0, 100, 30);
