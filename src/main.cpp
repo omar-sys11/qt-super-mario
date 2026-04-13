@@ -4,6 +4,8 @@
 #include <QGraphicsView>
 #include <QTimer>
 #include <QWindow>
+#include<QVBoxLayout>
+#include<QLabel>
 
 #include "player.hpp"
 
