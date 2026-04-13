@@ -41,7 +41,9 @@ void Player::updateState() {
     onGround = true;
   }
 
-    if (player.x() > 500 || player.x() < 100 || player.y() > 350 || player.y() < 0) {
+  if (!dead && (x() > 500 || x() < 100 || y() > 350 || y() < 0)) {
+
+    dead = true;
 
     QWidget* window = new QWidget;
     window->setWindowTitle("Popup");
@@ -55,8 +57,7 @@ void Player::updateState() {
     window->setLayout(layout);
     window->resize(300, 150);
     window->show();
-      
-  }
+}
 }
 
 Player::~Player() {}
